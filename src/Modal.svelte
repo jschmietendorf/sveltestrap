@@ -240,6 +240,7 @@
           on:outrostart={onModalClosing}
           on:outroend={onModalClosed}
           on:click={handleBackdropClick}
+          on:keydown={handleBackdropClick}
           on:mousedown={handleBackdropMouseDown}
         >
           <slot name="external" />
